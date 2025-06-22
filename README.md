@@ -14,6 +14,7 @@ qmk flash -kb crkbd/rev1 -km mhkey
 
 ## Layer 0: DVORAK (Base)
 
+```
 ┌─────┬─────┬─────┬─────┬─────┬─────┐       ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │ ESC │  ;  │  ,  │  .  │  P  │  Y  │       │  F  │  G  │  C  │  R  │  L  │BSPC │
 ├─────┼─────┼─────┼─────┼─────┼─────┤       ├─────┼─────┼─────┼─────┼─────┼─────┤
@@ -24,9 +25,11 @@ qmk flash -kb crkbd/rev1 -km mhkey
                   │ GUI │SYM  │SPACE│       │SPACE│ NUM │ALGR │
                   │     │CAPS │     │       │     │ENTER│     │
                   └─────┴─────┴─────┘       └─────┴─────┴─────┘
+```
 
 ## Layer 1: SYM (Symbols)
 
+```
 ┌─────┬─────┬─────┬─────┬─────┬─────┐       ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │ ESC │  [  │  {  │  }  │  (  │  =  │       │  *  │  )  │  +  │  ]  │  !  │ DEL │
 ├─────┼─────┼─────┼─────┼─────┼─────┤       ├─────┼─────┼─────┼─────┼─────┼─────┤
@@ -37,9 +40,11 @@ qmk flash -kb crkbd/rev1 -km mhkey
                   │ GUI │ ▼▼▼ │SPACE│       │SPACE│ NUM │ALGR │
                   │     │     │     │       │     │ENTER│     │
                   └─────┴─────┴─────┘       └─────┴─────┴─────┘
+```
 
 ## Layer 2: NUM (Numbers & F-keys)
 
+```
 ┌─────┬─────┬─────┬─────┬─────┬─────┐       ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │ ESC │  7  │  5  │  3  │  1  │  9  │       │  0  │  2  │  4  │  6  │  8  │BSPC │
 ├─────┼─────┼─────┼─────┼─────┼─────┤       ├─────┼─────┼─────┼─────┼─────┼─────┤
@@ -50,9 +55,11 @@ qmk flash -kb crkbd/rev1 -km mhkey
                   │ GUI │ SYM │SPACE│       │SPACE│ ▼▼▼ │ALGR │
                   │     │ENTER│     │       │     │     │     │
                   └─────┴─────┴─────┘       └─────┴─────┴─────┘
+```
 
 ## Layer 3: MEDIA (Multimedia)
 
+```
 ┌─────┬─────┬─────┬─────┬─────┬─────┐       ┌─────┬─────┬─────┬─────┬─────┬─────┐
 │ --- │ --- │ --- │ --- │ --- │ --- │       │ --- │ --- │ --- │ --- │PRTSC│ --- │
 ├─────┼─────┼─────┼─────┼─────┼─────┤       ├─────┼─────┼─────┼─────┼─────┼─────┤
@@ -63,5 +70,18 @@ qmk flash -kb crkbd/rev1 -km mhkey
                   │ GUI │ --- │SPACE│       │SPACE│ --- │ALGR │
                   │     │     │     │       │     │     │     │
                   └─────┴─────┴─────┘       └─────┴─────┴─────┘
+```
+
+## Legend
+
+- `---` = No function
+- `▼▼▼` = Current layer active
+- `" *` = Quote (Alt when held)
+- `SYM CAPS` = SYM layer when held, CAPS when tapped
+- `NUM ENTER` = NUM layer when held, ENTER when tapped
+- `◄◄` = Previous track
+- `▐▌` = Play/Pause
+- `►►` = Next track
+- `BRI+/BRI-` = Brightness up/down
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
